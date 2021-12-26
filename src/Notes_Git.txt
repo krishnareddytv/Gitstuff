@@ -6,7 +6,7 @@ tell me
 next
 end
 developer branch--cucmber from gitstuff folder
-<<<<<<< HEAD
-=======
-update developer brach
->>>>>>> developer
+========
+1
+2
+3
