@@ -1,13 +1,4 @@
-added
 
-updated from git\gitdemo
-hello
-tell me
-next
-end
-developer branch--cucumber from gitstuff folder
-========
-1
 2
 3
 =========person B cucumber
