@@ -1,6 +1,5 @@
 
-2
-3
+
 =========person B cucumber
 4
 5
