@@ -1,0 +1,7 @@
+access modifiers:
+
+1.public--->access every where.with in the package aswell as outside the package
+2.Default--->access in the current package only
+3.private-->only in the current class
+4.protected-->in th current class and in the child class if any class is extends parent class
+-----------------

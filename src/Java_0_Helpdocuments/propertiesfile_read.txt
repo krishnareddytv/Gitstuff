@@ -1,0 +1,38 @@
+
+//Java program- Read the values from properties file (employee.properties file is created under new pckage created as config.
+//values associats in employee are 1)Name=venkat 2)age=31 3)City=hyderabad
+//learning- default class Properties- used for reading stuff 
+//learning-
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.util.Properties;
+
+
+public class properties {
+
+	/**
+	 * @param args
+	 * @throws Exception 
+	 */
+	public static void main(String[] args) throws Exception {
+	
+		Properties p=new Properties();
+		FileInputStream fi=new FileInputStream(System.getProperty("user.dir")+"\\src\\config\\employee.properties");
+		
+		//user.dir is used for retriving the current user directory of the project path.
+		//		System.out.println(System.getProperty("user.dir"));
+		
+		
+		
+		p.load(fi);
+	
+				System.out.println(p.getProperty("name"));
+				
+				
+	
+		
+				
+	}
+
+}

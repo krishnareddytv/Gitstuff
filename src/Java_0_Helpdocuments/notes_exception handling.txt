@@ -1,0 +1,54 @@
+Exceptions:
+http://pages.cs.wisc.edu/~cs368-1/JavaTutorial/NOTES/Exceptions.html
+
+------------------
+Exceptions example:
+1.Arithmetic Exception
+2.Nullpointer exception
+3.Array indexoutofboundsexception
+
+Ref:http://www.tutorialspoint.com/java/java_exceptions.htm
+--------------------------------------------------------------------
+try-catch
+1.try block will try to execute the code inside it.if no error in code..it will come out of try-catch block
+if any error in try block code, it will move to catch block and execute the code present in catch block.we can write code insuch a way that we can report that error message or we can take the screen shots.
+2)Exception is an inbuilt object with reference e
+3)e.getmessage()---->for getting the exception message
+4)e.printstacktrace()--->for printing error message-->it tells on which line the error is coming.
+
+------------
+
+final vs finally
+
+final: which can not change the assigned value of variable  ex: final int 100;
+
+finally
+
+its block of code used in the try catch blocks in case if some code is not executed in try block.we can keep mandatory code part in finally to execute it
+
+try{
+			// establish connection
+			// fire a query
+			// get the results
+			// close connection
+			return;
+			//int i=9/0;
+		}catch(Exception e){
+			// error
+			System.out.println("error");
+		}finally{
+			// close the connection if establed
+			System.out.println("in finally");
+		}
+		
+
+------
+throw vs throws
+
+Throws: comes infront of function--it tells java that this function is capable of throwing an exception.
+
+throw:  this clause is used to deliberately throws an exception.ex
+
+	public static void main(String[] args) throws Exception {	
+		throw new Exception("Some description");
+			}

@@ -1,0 +1,71 @@
+
+//java program- create Txt file,write some lines,read all lines
+
+
+
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
+
+
+
+public class file_create_write_read {
+	
+	public static void main(String[] args) throws IOException {
+		
+		//create txt fine any desired location
+		File f=new File("C:\\MyPrograms\\sample1.txt");
+		f.createNewFile();
+		
+		
+		// write few line inside the created file
+		
+		FileWriter fw=new FileWriter("c:\\MyPrograms\\sample1.txt");
+		BufferedWriter bw=new BufferedWriter(fw);
+		
+		bw.write("Hello..first line");
+		bw.newLine();
+		bw.write("Hello..second line");
+		bw.newLine();
+		bw.write("Hello..third line");
+		bw.flush();
+		
+		FileReader fr=new FileReader("C:\\MyPrograms\\sample1.txt");
+		BufferedReader br=new BufferedReader(fr);
+		
+		String R;
+		
+		
+		// one way of reading without using loop condition
+		
+		/*
+		 
+		System.out.println(br.readLine());
+		System.out.println(br.readLine());
+		System.out.println(br.readLine());
+		
+		// if no lines are present..it will display the null
+		System.out.println(br.readLine());
+		
+		*/
+		
+		//using loop
+		
+		while((R=br.readLine())!=null){
+			System.out.println(R);
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+}
+}

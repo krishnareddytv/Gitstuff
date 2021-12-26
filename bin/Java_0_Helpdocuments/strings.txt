@@ -1,0 +1,32 @@
+// java program- string methods 
+
+public class sample {
+	
+	
+	public static void main(String[] args) {
+	
+		
+	String str="Hello i have a  video for you";
+	
+	System.out.println("length of string is    : "+ str.length());
+	
+	System.out.println("character of index at 5 is    : "+ str.charAt(5));
+	System.out.println("index of first occurance of character a is ..."+ str.indexOf("a"));
+	System.out.println("index of second occurance of character a is ..."+ str.indexOf("a",9));
+	
+	
+	String str1="Hello";
+	System.out.println("comaring two strings...:"+ str.equals(str1));
+	System.out.println("substring of..:"+str.substring(0, 5));
+	System.out.println("comparing of substring..:"+ str1.equals(str.substring(0,5)));
+	
+// converting string to int
+	String str2="100";
+	int i= Integer.parseInt(str2);
+// converting int to string
+	String str3=String.valueOf(i);
+	
+	
+	
+		
+	}	}

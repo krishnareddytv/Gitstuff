@@ -1,0 +1,10 @@
+eclipse features
+1)Navigate to functions:
+1.ctrl +movemouse on functions--looks like links---clcik on it it will navigate to that functions where it present.
+2.to go back to the previous class--clcik on the back button present on top of menu items present in eclipse.
+2)search any in the current workspace
+1 ctrl+shipt+R....>it will open resource-->type any thing to search
+3)Link with editor--->we can see the navigation in project explorerof the selected calss file
+4)project explorer-->window-->show view
+5)console-->window-->show view
+6)fonts and colors-->window--?preferences-->General-->colors and fonts..>Basics-->Text font--->Edit

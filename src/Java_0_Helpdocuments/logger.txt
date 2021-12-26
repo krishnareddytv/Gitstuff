@@ -1,0 +1,26 @@
+import org.apache.log4j.Logger;
+
+
+
+//program:logfile creation
+
+public class logger {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+
+		// add log4j.jar
+		// add log4j.propertie directly inside the src folder
+		// create the object in the code
+		
+		Logger log = Logger.getLogger("devpinoyLogger");
+		log.debug("hello");
+		log.debug("We are wrinting in to a log file");
+		log.debug("starting the test case xyz test");
+		
+		
+	}
+
+}
